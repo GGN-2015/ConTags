@@ -13,5 +13,105 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\CharSet">
+      <UniqueIdentifier>{2f79a19c-a722-4b08-910c-641b047b6599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\StringData">
+      <UniqueIdentifier>{f1c53dc9-0cd5-423a-9cb4-f810a0f27ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\测试">
+      <UniqueIdentifier>{8471ccc1-3576-44e0-9109-cc18523ae906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\实现">
+      <UniqueIdentifier>{c12b4db1-fb11-407d-8bdd-752677396f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\树结构">
+      <UniqueIdentifier>{53e1105f-d03f-4194-999a-55a66d97e479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="StringData.h">
+      <Filter>头文件\StringData</Filter>
+    </ClInclude>
+    <ClInclude Include="StringDataView.h">
+      <Filter>头文件\StringData</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFind.h">
+      <Filter>头文件\StringData</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftBraceCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="RightBraceCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="BraceCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="LowerCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="UpperCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaDigitCharSet.h">
+      <Filter>头文件\CharSet</Filter>
+    </ClInclude>
+    <ClInclude Include="ConTagsNode.h">
+      <Filter>头文件\树结构</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConTagsTest.cpp">
+      <Filter>源文件\测试</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaDigitCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="BraceCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="ConTagsNode.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftBraceCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="LowerCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="ICharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="RightBraceCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="StringData.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="StringDataView.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFind.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
+    <ClCompile Include="UpperCharSet.cpp">
+      <Filter>源文件\实现</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
